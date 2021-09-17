@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réis de Dom Casmurro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Réis de Dom Casmurro</h1>
+    </header>
+    <main>
+        <p><strong>Comparação de quantias monetárias do livro Dom Casmurro</strong></p>
+        <p>A história do livro Dom Casmurro se passa na segunda metade do século XIX,
+            período em que a moeda vigente no Brasil era o Real (plural réis). Pensando
+            no melhor entendimento e noção de quantias monetárias citadas no livro, esse site
+            oferece o <strong>conversor de réis para reais</strong>, calculado de forma aproximada, 
+            com base na conversão proposta por Laurentino Gomes, no livro 1808.
+        </p>
+        <aside>Algumas denominações eram
+            comumente usadas para definir uma quantia específica de réis. Entre elas
+            temos o vintém, que equivale a 20 réis, e o conto, expressão que indica
+            um milhão de réis
+            <ul>
+                <li><strong>Representação numérica:</strong></li>
+                <li>1 real (unidade de réis) = Rs 1</li>
+                <li>Vintém = Rs 20</li>
+                <li>Mil réis = Rs 1$000</li>
+                <li>Conto de réis = Rs 1:000$000</li>
+            </ul>
+        </aside>
+        <div id="calculo-reis">
+            <h2>Converter <span id="inicio">reais</span> <img id="seta-conversao" src="imgs/seta-conversao.png" alt="para"> <span id="fim">réis</span> <button id="info-button">?</button></h2>
+            <label>Valor em <span id="moeda-inicio">reais</span></span>:
+                <input type="number" id="entrada">
+            </label>
+            <p id="resultado">Valor em <span id="moeda-fim">réis</span> (aproximado): </p>
+        </div>
+        <div id="info">
+            Conversão aproximada desenvolvida por Laurentino Gomes, no livro 1808. 
+            <a target="_blank" href="https://www.diniznumismatica.com/2015/11/conversao-hipotetica-dos-reis-para-o.html">
+            saiba mais</a>
+        </div>
+        <div id="trechos">
+            <h2>Comparação dos valores em alguns trechos do livro: </h2>
+            <p><q>Pádua era empregado em repartição dependente do Ministério da Guerra.
+                Não ganhava muito, mas a mulher gastava pouco, e a vida era barata. Demais, a
+                casa em que morava, assobradada como a nossa, posto que menor, era
+                propriedade dele. Comprou-a com a sorte grande que lhe saiu num meio bilhete de
+                loteria, <strong>dez contos de réis</strong>.
+            </q> (Capítulo XVI)<br><strong>R$1.230.000</strong></p>
+            <p><q>No portão do Passeio, um mendigo estendeu-nos a mão. José Dias passou
+                adiante, mas eu pensei em Capitu e no seminário, tirei <strong>dous vinténs</strong> do bolso e deios ao mendigo. Este beijou a moeda; eu pedi-lhe que rogasse a Deus por mim, a fim
+                de que eu pudesse satisfazer todos os meus desejos.
+            </q> (Capítulo XXVII)<br><strong>R$5</strong></p>
+            <p><q>Uma das suas poesias é destinada a contar
+                (1851) que residia em Catumbi, e, para ver a namorada no Catete, alugara um
+                cavalo por <strong>três mil-réis</strong>... Três mil-réis! tudo se perde na noite dos tempos!
+            </q> (Capítulo LXXIII)<br><strong>R$369</strong></p>
+            <p><q>Considera que eram não menos de nove casas, e que os
+                aluguéis variavam de uma para outra, indo de <strong>70$000 a 180$000</strong>. Pois tudo isto em
+                que eu gastaria três ou quatro minutos, —e havia de ser no papel,—fê-lo Escobar de
+                cor, brincando. Olhava-me triunfalmente, e perguntava se não era exato. Eu, só por
+                lhe mostrar que sim, tirei do bolso o papelinho que levava com a soma total, e
+                mostrei-lho; era aquilo mesmo, nem um erro: <strong>1:070$000</strong>.
+            </q> (Capítulo XCV)<br><strong>R$8.610 a R$22.140; R$131.610</strong></p>
+        </div>
+        <div id="preco">
+            <h2>Preços praticados na época</h2>
+            <p>Para uma noção maior - alheia à conversão para reais - sobre a moeda da época, eis alguns dos preços praticados em meados do século XIX:</p>
+            <ul>
+                <li>Em 1846, 1 saca de café era comprada por 12$000</li>
+                <li>Em 1854, a receita total do Império foi de 35.000 contos de réis.</li>
+                <li>Em 1860, 1 conto de réis comprava 1kg. de ouro.</li>
+            </ul>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

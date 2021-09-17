@@ -1,0 +1,91 @@
+body {
+    background-color: #fef7cc;
+    margin: 0em;
+    font-family: 'Merriweather', serif;
+}
+header {
+    background-color: #844445;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+main {
+    margin: 1em 3em 1em 3em;
+    text-align: center;
+}
+div {
+    margin: 1em;
+    text-align: left;
+}
+h2 {
+    font-size: inherit;
+}
+#parcelas {
+    font-size: 0.7em;
+}
+#total, #reis {
+    font-size: 0.9em;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 0.8em;
+    border-width: 0.1em;
+    width: 10em;
+}
+button {
+    color: white;
+    background-color: #844445;
+    border-radius: 0.8em;
+    border-width: 0.1em;
+    font-family: inherit;
+}
+#info-button {
+    position: relative;
+}
+#info {
+    position: absolute;
+    font-size: 0.7em;
+    margin: 0em;
+    width: 13em;
+    left: 24.5em;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.4em;
+    border: 0.1em solid black;
+    border-radius: 0.8em;
+    visibility: hidden;
+}
+#seta-conversao {
+    width: 2em;
+}
+ul {
+    list-style: none;
+    padding: 0em;
+    text-align: center;
+}
+aside {
+    float: right;
+    text-align: left;
+    margin: 1em, auto, 1em, auto;
+    padding: 1em;
+    width: 15em;
+    background-color: #84444562;
+    border-left: 0.5em solid #844445;
+}
+#calculo-reis {
+    width: 20em;
+    float: left;
+}
+#trechos {
+    clear: left;
+    padding-top: 3em;
+}
+#preco {
+    padding-top: 3em;
+}
+#preco ul {
+    text-align: left;
+    list-style: circle;
+}
+
