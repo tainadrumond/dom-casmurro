@@ -41,23 +41,30 @@ button {
     border-width: 0.1em;
     font-family: inherit;
 }
-#info-button {
+#calculo-reis h2, #preco h2 {
     position: relative;
 }
-#info {
+.info {
     position: absolute;
     font-size: 0.7em;
     margin: 0em;
     width: 13em;
-    left: 24.5em;
+    left: 17.9em;
+    top: -1em;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 0.4em;
     border: 0.1em solid black;
     border-radius: 0.8em;
     visibility: hidden;
 }
+#preco .info {
+    left: 20.6em;
+}
 #seta-conversao {
-    width: 2em;
+    width: 1.2em;
+}
+#seta-conversao:hover {
+    background-color: grey;
 }
 ul {
     list-style: none;

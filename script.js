@@ -1,19 +1,21 @@
 
-let infoButtonEl = document.getElementById("info-button");
-let infoEl = document.getElementById("info");
+let infoButtonEl = document.getElementsByClassName("info-button");
+let infoEl = document.getElementsByClassName("info");
 
-infoButtonEl.addEventListener("mouseover", () => {
-    infoEl.style.visibility = "visible";
-});
-infoButtonEl.addEventListener("mouseout", () => {
-    infoEl.style.visibility = "hidden";
-});
-infoEl.addEventListener("mouseover", () => {
-    infoEl.style.visibility = "visible";
-});
-infoEl.addEventListener("mouseout", () => {
-    infoEl.style.visibility = "hidden";
-});
+for(let i = 0; i < infoButtonEl.length; i++) {
+    infoButtonEl[i].addEventListener("mouseover", () => {
+        infoEl[i].style.visibility = "visible";
+    });
+    infoButtonEl[i].addEventListener("mouseout", () => {
+        infoEl[i].style.visibility = "hidden";
+    });
+    infoEl[i].addEventListener("mouseover", () => {
+        infoEl[i].style.visibility = "visible";
+    });
+    infoEl[i].addEventListener("mouseout", () => {
+        infoEl[i].style.visibility = "hidden";
+    });
+}
 
 let setaEl = document.getElementById("seta-conversao");
 let inicioEl = document.getElementById("inicio");
